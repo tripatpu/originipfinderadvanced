@@ -12,6 +12,14 @@ naabu -list example_com_ips.txt -top-ports 1000 -silent
 
 chmod +x origin-ip-finder-pro.sh
 
+origin-ip-find-precise
+
+chmod +x origin-ip-finder-pro.sh
+export FULLHUNT_KEY=...        # optional
+./origin-ip-finder-pro.sh -d example.com -o "Example Inc" -b -D \
+    -k $SHODAN_KEY -c $CENSYS_ID:$CENSYS_SECRET -s $ST_KEY
+naabu -list example_com_ips.txt -top-ports 1000 -silent
+
 # Basic
 ./origin-ip-finder-pro.sh -d example.com -o "Example Inc"
 
