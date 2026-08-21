@@ -1,3 +1,14 @@
+## Use this script only
+
+./origin-ip-finder-advanced.sh -d <domain> -o orgname \
+  -k vzmRD4EYDp9ndtZ6qNMcsCbfHxuA8CBF \
+  -c be50135e-ffdf-4f59-8b1a-9695de5b3a9a:2TlXDJwTk9tR4iGak8vuJ2TMqJo8xkL8 \
+  -s oOrFLSCMTO9NA0UUVB3dgdXVFByefyLn \
+  -v b1fc7073d9409df2fd354eecea1065ec32e580c7 \
+  -f output
+
+
+===Ignore below===
 chmod +x origin-ip-finder-advanced.sh
 ./origin-ip-finder-advanced.sh -d sempra.com -o "Sempra Energy" -b -D -t 50
 naabu -list sempra_com_ips.txt -top-ports 1000 -silent
